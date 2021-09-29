@@ -1,3 +1,4 @@
+[![Math-Util with CI | © 2021 by bijeck0205](https://github.com/Bijeck0205/math-util/actions/workflows/math-util-ci.yml/badge.svg)](https://github.com/Bijeck0205/math-util/actions/workflows/math-util-ci.yml)
 # Welcome to
 
 ### Screen shot:
