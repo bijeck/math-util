@@ -10,19 +10,29 @@ package com.sump.mathutil.core;
  * @author Administrator
  */
 public class MathUtil {
-    
+    //de quy, recursion
     public static long getFactorial(int n){
         if(n<0 || n > 20){
             throw new IllegalArgumentException("Out of range");
         }
+         if( n==0 || n==1)
+             return 1;
+         
+         return n * getFactorial(n-1);
         
-        if(n == 1 || n ==0) return 1;
-        
-        long product = 1;
-        
-        for(int i = 1; i <= n;i++){
-            product *=i;
-        }
-        return product;
     }
+//    public static long getFactorial(int n){
+//        if(n<0 || n > 20){
+//            throw new IllegalArgumentException("Out of range");
+//        }
+//        
+//        if(n == 1 || n ==0) return 1;
+//        
+//        long product = 1;
+//        
+//        for(int i = 1; i <= n;i++){
+//            product *=i;
+//        }
+//        return product;
+//    }
 }
